@@ -57,7 +57,7 @@ if (!TWITCH_AUTH) {
 }
 if (!COMMAND_NAME) {
     // intento de que no necesite un comando, que este vacio
-    COMMAND_NAME = [""]
+    COMMAND_NAME = ["!gpt"]
 } else {
     // split commands by comma into array
     COMMAND_NAME = COMMAND_NAME.split(",")
