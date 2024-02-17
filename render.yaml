@@ -8,7 +8,7 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: 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
+        value: sk-WQmPd8526DUpvn
       - key: CHANNELS
         value: alex_borda_
       - key: GPT_MODE
@@ -22,7 +22,7 @@ services:
       - key: TWITCH_USER  # https://dev.twitch.tv/console
         value: "chatbot-chatgpt"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:sa5c8qaurwwi2rq58dyneohp2hoe29"
+        value: "oauth:sa5c8qaurww"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
