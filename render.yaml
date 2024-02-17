@@ -8,9 +8,9 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: <your-openai-api-key>
+        value: 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
       - key: CHANNELS
-        value: <your-twitch-channel>
+        value: alex_borda_
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
@@ -18,14 +18,14 @@ services:
       - key: MODEL_NAME
         value: "gpt-3.5-turbo"
       - key: COMMAND_NAME
-        value: "chat"
+        value: ""
       - key: TWITCH_USER  # https://dev.twitch.tv/console
-        value: "oSetinhasBot"
+        value: "chatbot-chatgpt"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:9wh6ujbu2mro28zhbl8z6z921iuyxz"
+        value: "oauth:sa5c8qaurwwi2rq58dyneohp2hoe29"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
-        value: "false"
+        value: "true"
       - key: ENABLE_CHANNEL_POINTS
         value: "false"
