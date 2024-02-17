@@ -46,8 +46,8 @@ if (!MODEL_NAME) {
     MODEL_NAME = "gpt-3.5-turbo"
 }
 if (!TWITCH_USER) {
-    TWITCH_USER = "Alex_Bot"
-    console.log("No TWITCH_USER found. Using oSetinhasBot as default.")
+    TWITCH_USER = "alex_borda_"
+    console.log("No TWITCH_USER found. Using alex_borda_ as default.")
 }
 if (!TWITCH_AUTH) {
     // https://dev.twitch.tv/console
