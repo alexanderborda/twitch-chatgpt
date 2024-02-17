@@ -46,7 +46,7 @@ if (!MODEL_NAME) {
     MODEL_NAME = "gpt-3.5-turbo"
 }
 if (!TWITCH_USER) {
-    TWITCH_USER = "oSetinhasBot"
+    TWITCH_USER = "Alex_Bot"
     console.log("No TWITCH_USER found. Using oSetinhasBot as default.")
 }
 if (!TWITCH_AUTH) {
@@ -56,14 +56,15 @@ if (!TWITCH_AUTH) {
     console.log("No TWITCH_AUTH found. Using oSetinhasBot auth as default.")
 }
 if (!COMMAND_NAME) {
-    COMMAND_NAME = ["!gpt"]
+    // intento de que no necesite un comando, que este vacio
+    COMMAND_NAME = [""]
 } else {
     // split commands by comma into array
     COMMAND_NAME = COMMAND_NAME.split(",")
 }
 COMMAND_NAME = COMMAND_NAME.map(function(x){ return x.toLowerCase() })
 if (!CHANNELS) {
-    CHANNELS = ["oSetinhas", "jones88"]
+    CHANNELS = ["alex_borda_", "alex_bo_"]
 } else {
     // split channels by comma into array
     CHANNELS = CHANNELS.split(",")
@@ -72,7 +73,7 @@ if (!SEND_USERNAME) {
     SEND_USERNAME = "true"
 }
 if (!ENABLE_TTS) {
-    ENABLE_TTS = "false"
+    ENABLE_TTS = "true"
 }
 if (!ENABLE_CHANNEL_POINTS) {
     ENABLE_CHANNEL_POINTS = "false";
@@ -80,7 +81,7 @@ if (!ENABLE_CHANNEL_POINTS) {
 
 // init global variables
 const MAX_LENGTH = 399
-let file_context = "You are a helpful Twitch Chatbot."
+let file_context = "Eres un chatbot de Twitch y respondes a indicaciones de varios espectadores."
 let last_user_message = ""
 
 // setup twitch bot
